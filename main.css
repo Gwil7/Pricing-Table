@@ -1,0 +1,31 @@
+.pricing-table{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+
+    text-align: center;
+}
+.package-box {
+    background-color: #D3D3D3;
+    border-radius: 10px;
+}
+.description, .price, .package-name {
+    padding: 20px;
+}
+.price{
+    background-color: red;  
+    color: white;
+}
+.button {
+    display: inline-block;
+    background-color: #00008B;
+    color: white;
+    font-weight: bold;
+    border-radius: 30px;
+    text-decoration: none;      
+    padding: 7px 40px;
+}
+.feature-list {
+    text-align: left;
+    padding: 15px 60px;
+}
